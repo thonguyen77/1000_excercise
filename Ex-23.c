@@ -4,6 +4,7 @@
 int main()
 {
     int n = 100;
+    int cnt = 0;
     //printf("Enter n = ");
     //scanf("%d",&n);
 
@@ -11,8 +12,9 @@ int main()
     {
         if(n % i == 0)
         {
-            printf("%d ",i);
+            cnt++;
         }
     }
+    printf("%d ",cnt);
     return 0;
 }
